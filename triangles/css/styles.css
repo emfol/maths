@@ -1,0 +1,23 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+div.drawing-area-container {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: calc(100vh - 24px);
+  background-color: #ccc;
+}
+
+div.drawing-area-container canvas#drawing-area {
+  background-color: yellow;
+}
+
+div.input-fields-container {
+  width: 100vw;
+  height: 24px;
+  background-color: pink;
+}
