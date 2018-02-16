@@ -1,0 +1,29 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+div.drawing-area-container {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: calc(100vh - 32px);
+  border: 0 none;
+}
+
+div.drawing-area-container canvas#drawing-area {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+}
+
+div.input-fields-container {
+  width: 100vw;
+  height: 32px;
+  line-height: 32px;
+  background-color: #ccc;
+}
